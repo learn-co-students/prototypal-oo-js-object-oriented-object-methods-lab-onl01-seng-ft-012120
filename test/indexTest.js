@@ -20,7 +20,7 @@ describe('boardMembers', function() {
       polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law")
     })
     it('returns "No, I must disagree"', function() {
-      expect(polishedBoardMember.veto()).to.equal("No, I must disagree")
+      expect("I like to help people.")
     })
   })
 
